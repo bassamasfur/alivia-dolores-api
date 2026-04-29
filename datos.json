@@ -1,0 +1,140 @@
+{
+  "dolencias": [
+    {
+      "nombre": "Dolor de cabeza tensional",
+      "comer_mas": ["Agua 500ml", "Sandía", "Palta", "Almendras", "Espinaca", "Jengibre"],
+      "evitar": ["Queso añejo", "Embutidos", "Vino tinto", "Ayuno largo", "Exceso café"],
+      "por_que": "Magnesio + hidratación relajan vasos sanguíneos",
+      "receta_titulo": "Smoothie anti-jaqueca",
+      "receta_pasos": "Licuar 2 tazas sandía + 1cm jengibre + jugo 1/2 limón + hielo",
+      "red_flag": "Si es el peor dolor de tu vida, con fiebre >38.5 o tras golpe = urgencia"
+    },
+    {
+      "nombre": "Dolor menstrual / cólicos",
+      "comer_mas": ["Salmón", "Nueces", "Plátano", "Avena", "Chocolate 70%", "Agua tibia"],
+      "evitar": ["Sal", "Café", "Azúcar refinada", "Frituras"],
+      "por_que": "Omega-3 baja prostaglandinas inflamatorias. Potasio reduce calambres",
+      "receta_titulo": "Avena SOS",
+      "receta_pasos": "Mezclar 1/2 taza avena + agua caliente + 1 plátano en rodajas + 1 cda nueces + canela",
+      "red_flag": "Si el dolor es incapacitante o con sangrado excesivo = consulta médica"
+    },
+    {
+      "nombre": "Acidez / Reflujo",
+      "comer_mas": ["Avena", "Plátano maduro", "Melón", "Jengibre", "Hinojo", "Pechuga pollo plancha"],
+      "evitar": ["Tomate", "Café", "Chocolate", "Menta", "Ajo crudo", "Fritura", "Picante"],
+      "por_que": "Alimentos alcalinos y bajos en grasa calman ácido",
+      "receta_titulo": "Batido calma",
+      "receta_pasos": "Licuar 1 plátano + 1 taza leche avena + 1cm jengibre rallado + hielo",
+      "red_flag": "Si hay vómitos con sangre o dolor torácico = urgencia"
+    },
+    {
+      "nombre": "Dolor muscular / Post gym",
+      "comer_mas": ["Piña", "Guindas ácidas", "Salmón", "Cúrcuma + pimienta", "Huevos"],
+      "evitar": ["Alcohol", "Azúcar", "Ultraprocesados"],
+      "por_que": "Bromelina de piña y antocianinas bajan inflamación muscular",
+      "receta_titulo": "Shot cúrcuma",
+      "receta_pasos": "Mezclar 1 vaso agua tibia + 1 cdta cúrcuma + pizca pimienta negra + miel + limón",
+      "red_flag": "Si hay hinchazón, calor local o incapacidad de mover = consulta médica"
+    },
+    {
+      "nombre": "Hinchazón abdominal / Gases",
+      "comer_mas": ["Pepino", "Apio", "Kéfir", "Té menta", "Papaya"],
+      "evitar": ["Bebidas gas", "Legumbres sin remojo", "Chicle", "Repollo crudo"],
+      "por_que": "Probióticos + diuréticos naturales + enzimas digestivas",
+      "receta_titulo": "Agua detox",
+      "receta_pasos": "Mezclar 1L agua + 1/2 pepino en rodajas + hojas menta + limón. Reposar 10 min",
+      "red_flag": "Si hay dolor intenso, fiebre o vómitos persistentes = urgencia"
+    },
+    {
+      "nombre": "Dolor de garganta",
+      "comer_mas": ["Miel", "Caldo pollo", "Té jengibre tibio", "Helado de agua", "Puré"],
+      "evitar": ["Ácido", "Picante", "Galletas secas", "Cítricos fuertes"],
+      "por_que": "Miel cubre y es antibacteriana. Tibio relaja",
+      "receta_titulo": "Té matador",
+      "receta_pasos": "Mezclar agua caliente + 1 cda miel + 1cm jengibre rallado + limón",
+      "red_flag": "Si hay dificultad para respirar o tragar = urgencia"
+    },
+    {
+      "nombre": "Estreñimiento",
+      "comer_mas": ["Kiwi 2 unid", "Ciruelas", "Chía hidratada", "Avena", "Agua 2L"],
+      "evitar": ["Queso", "Arroz blanco", "Plátano verde", "Comida seca"],
+      "por_que": "Fibra + sorbitol + agua ablandan",
+      "receta_titulo": "Chía pudín express",
+      "receta_pasos": "Mezclar 2 cda chía + 1 taza leche/leche vegetal + 5 ciruelas picadas. Reposar 5 min",
+      "red_flag": "Si hay sangrado rectal o dolor abdominal intenso = consulta médica"
+    },
+    {
+      "nombre": "Náuseas / Malestar estómago",
+      "comer_mas": ["Jengibre", "Galletas soda", "Plátano", "Arroz blanco", "Manzana cocida"],
+      "evitar": ["Grasa", "Lácteos", "Olor fuerte", "Café"],
+      "por_que": "Jengibre bloquea receptores de náusea. Comida blanda fácil de digerir",
+      "receta_titulo": "Manzana al micro",
+      "receta_pasos": "Cocinar 1 manzana picada + canela + 2 cda agua en microondas 2 min",
+      "red_flag": "Si hay vómitos persistentes o deshidratación = urgencia"
+    },
+    {
+      "nombre": "Resfrío / Congestión",
+      "comer_mas": ["Sopa pollo", "Ajo", "Cebolla", "Cítricos", "Kiwi", "Pimentón rojo"],
+      "evitar": ["Lácteos si aumentan flema", "Azúcar"],
+      "por_que": "Vitamina C + zinc + líquidos calientes aflojan mucosidad",
+      "receta_titulo": "Caldo en taza",
+      "receta_pasos": "Mezclar caldo de pollo en sobre + agua hirviendo + ajo en polvo + limón + ají merkén",
+      "red_flag": "Si hay fiebre alta >39 o dificultad respiratoria = urgencia"
+    },
+    {
+      "nombre": "Dolor de articulaciones",
+      "comer_mas": ["Pescado azul", "Frutos rojos", "Brócoli", "Aceite oliva", "Nueces"],
+      "evitar": ["Azúcar", "Harinas refinadas", "Frituras", "Exceso carne roja"],
+      "por_que": "Omega-3 y antioxidantes bajan inflamación sistémica",
+      "receta_titulo": "Bowl rojo",
+      "receta_pasos": "Mezclar 1 taza frutos rojos + 1 puñado nueces + yogurt natural",
+      "red_flag": "Si hay articulación roja, caliente o deformada = consulta médica"
+    },
+    {
+      "nombre": "Caña / Resaca",
+      "comer_mas": ["Agua", "Bebidas isotónicas", "Palta", "Huevos", "Plátano", "Jengibre"],
+      "evitar": ["Más alcohol", "Café solo", "Fritura"],
+      "por_que": "Repones electrolitos, potasio y cisteína para procesar alcohol",
+      "receta_titulo": "Pan palta-huevo",
+      "receta_pasos": "Preparar 1 pan integral + 1/2 palta + 2 huevos revueltos + sal",
+      "red_flag": "Si hay vómitos con sangre o confusión = urgencia"
+    },
+    {
+      "nombre": "Ansiedad / Nervios en guata",
+      "comer_mas": ["Manzanilla", "Plátano", "Avena", "Salmón", "Chocolate 70% pequeño"],
+      "evitar": ["Café", "Bebidas energéticas", "Azúcar en peak"],
+      "por_que": "Triptófano y magnesio ayudan a serotonina. Manzanilla calma",
+      "receta_titulo": "Leche dorada",
+      "receta_pasos": "Mezclar 1 taza leche caliente + 1/2 cdta cúrcuma + canela + miel",
+      "red_flag": "Si hay ataques de pánico recurrentes o insomnio severo = consulta médica"
+    },
+    {
+      "nombre": "Fatiga / Falta energía",
+      "comer_mas": ["Huevos", "Lentejas", "Espinaca", "Naranja", "Agua", "Frutos secos"],
+      "evitar": ["Azúcar sola", "Comida ultraprocesada"],
+      "por_que": "Hierro + B12 + vitamina C = energía sin peak",
+      "receta_titulo": "Mix power",
+      "receta_pasos": "Consumir 1 puñado almendras + 1 naranja + 1 huevo duro",
+      "red_flag": "Si la fatiga es persistente >2 semanas = consulta médica"
+    },
+    {
+      "nombre": "Calambres nocturnos",
+      "comer_mas": ["Plátano", "Palta", "Yogurt", "Agua tónica", "Hojas verdes"],
+      "evitar": ["Alcohol", "Deshidratación"],
+      "por_que": "Potasio + magnesio + quinina relajan músculo",
+      "receta_titulo": "Pre-cama",
+      "receta_pasos": "Consumir 1 plátano + 1 vaso agua + pizca sal de mar",
+      "red_flag": "Si los calambres son diarios y muy dolorosos = consulta médica"
+    },
+    {
+      "nombre": "Dolor de muela leve esperando dentista",
+      "comer_mas": ["Helado", "Yogurt frío", "Sopa tibia", "Puré", "Té manzanilla frío"],
+      "evitar": ["Muy caliente", "Frío extremo", "Dulce pegajoso", "Duro"],
+      "por_que": "Frío adormece. Blando no irrita",
+      "receta_titulo": "Clavo SOS",
+      "receta_pasos": "Morder 1 clavo de olor 2 min. Escupir",
+      "red_flag": "Si hay hinchazón facial o fiebre = urgencia dental"
+    }
+  ],
+  "fuentes": ["Mayo Clinic", "Harvard Health", "NHS"]
+}

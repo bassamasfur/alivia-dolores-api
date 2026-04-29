@@ -1,0 +1,84 @@
+### API de Dolencias - Ejemplos de Requests
+### Usa este archivo con la extensión REST Client de VS Code
+
+@baseUrl = http://localhost:3000
+
+### Health Check
+GET {{baseUrl}}/health
+
+### 1. GET - Obtener todas las dolencias
+GET {{baseUrl}}/dolencias
+
+### 2. GET - Obtener una dolencia específica por nombre
+GET {{baseUrl}}/dolencias/Dolor de cabeza tensional
+
+### 2b. GET - Obtener una dolencia por ID (slug)
+GET {{baseUrl}}/dolencias/id/dolor-de-cabeza-tensional
+
+### 3. GET - Otra dolencia por ID
+GET {{baseUrl}}/dolencias/id/acidez-reflujo
+
+### 4. POST - Limpiar y recargar datos desde datos.json (RESET COMPLETO)
+POST {{baseUrl}}/dolencias/reload
+Content-Type: application/json
+
+### 5. POST - Crear una nueva dolencia
+POST {{baseUrl}}/dolencias
+Content-Type: application/json
+
+{
+  "nombre": "Insomnio",
+  "comer_mas": ["Plátano", "Almendras", "Té de manzanilla", "Leche tibia", "Avena"],
+  "evitar": ["Café después de las 2pm", "Alcohol", "Comidas pesadas", "Chocolate"],
+  "por_que": "Triptófano y magnesio favorecen producción de melatonina",
+  "receta_titulo": "Leche dorada nocturna",
+  "receta_pasos": "Calentar 1 taza leche + 1 cdta cúrcuma + 1 cdta miel + pizca canela",
+  "red_flag": "Si persiste por más de 3 semanas o afecta tu vida diaria = consulta médica"
+}
+
+### 6. POST - Crear otra dolencia (con error de validación)
+POST {{baseUrl}}/dolencias
+Content-Type: application/json
+
+{
+  "nombre": "Test incompleto",
+  "comer_mas": ["Item 1"]
+}
+
+### 8. PUT - Actualizar una dolencia existente
+PUT {{baseUrl}}/dolencias/Insomnio
+Content-Type: application/json
+
+{
+  "comer_mas": ["Plátano", "Almendras", "Té de manzanilla", "Leche tibia", "Avena", "Kiwi"],
+  "evitar": ["Café después de las 2pm", "Alcohol", "Comidas pesadas", "Chocolate", "Pantallas antes de dormir"],
+  "por_que": "Triptófano, magnesio y kiwi favorecen producción de melatonina y serotonina"
+}
+
+### 9. PUT - Actualización parcial
+PUT {{baseUrl}}/dolencias/Dolor de cabeza tensional
+Content-Type: application/json
+
+{
+  "red_flag": "Si es el peor dolor de tu vida, con fiebre >38.5, tras golpe fuerte o con vómitos = urgencia inmediata"
+}
+
+### 10. DELETE - Eliminar una dolencia
+DELETE {{baseUrl}}/dolencias/Insomnio
+
+### 11. GET - Intentar obtener dolencia eliminada (debería dar 404)
+GET {{baseUrl}}/dolencias/Insomnio
+
+### 12. POST - Intentar crear duplicado
+POST {{baseUrl}}/dolencias
+Content-Type: application/json
+
+{
+  "nombre": "Dolor de cabeza tensional",
+  "comer_mas": ["Agua"],
+  "evitar": ["Café"],
+  "por_que": "Test duplicado",
+  "receta_titulo": "Test",
+  "receta_pasos": "Test",
+  "red_flag": "Test"
+}
