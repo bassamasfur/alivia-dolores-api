@@ -9,9 +9,18 @@ class FirebaseConfig {
   initialize() {
     try {
       // Inicializar Firebase Admin con credenciales
-      const serviceAccountPath = process.env.FIREBASE_SERVICE_ACCOUNT_PATH || 
-        path.join(__dirname, '../../serviceAccountKey.json');
-      const serviceAccount = require(serviceAccountPath);
+      let serviceAccount;
+      
+      // En Vercel, usar la variable de entorno con el JSON completo
+      if (process.env.FIREBASE_SERVICE_ACCOUNT) {
+        serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+        console.log('✅ Usando credenciales de Firebase desde variable de entorno');
+      } else {
+        // En local, usar el archivo
+        const serviceAccountPath = path.join(__dirname, '../../serviceAccountKey.json');
+        serviceAccount = require(serviceAccountPath);
+        console.log('✅ Usando credenciales de Firebase desde archivo local');
+      }
       
       admin.initializeApp({
         credential: admin.credential.cert(serviceAccount),
