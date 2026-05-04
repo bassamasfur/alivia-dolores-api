@@ -2,6 +2,7 @@
   "dolencias": [
     {
       "nombre": "Dolor de cabeza tensional",
+      "descripcion": "Dolor leve a moderado que se siente como una banda apretada alrededor de la cabeza, causado por tensión muscular y estrés.",
       "comer_mas": ["Agua 500ml", "Sandía", "Palta", "Almendras", "Espinaca", "Jengibre"],
       "evitar": ["Queso añejo", "Embutidos", "Vino tinto", "Ayuno largo", "Exceso café"],
       "por_que": "Magnesio + hidratación relajan vasos sanguíneos",
@@ -11,6 +12,7 @@
     },
     {
       "nombre": "Dolor menstrual / cólicos",
+      "descripcion": "Dolor tipo calambre en la parte baja del abdomen durante la menstruación, causado por contracciones uterinas.",
       "comer_mas": ["Salmón", "Nueces", "Plátano", "Avena", "Chocolate 70%", "Agua tibia"],
       "evitar": ["Sal", "Café", "Azúcar refinada", "Frituras"],
       "por_que": "Omega-3 baja prostaglandinas inflamatorias. Potasio reduce calambres",
@@ -20,6 +22,7 @@
     },
     {
       "nombre": "Acidez / Reflujo",
+      "descripcion": "Sensación de ardor en el pecho y garganta cuando el ácido estomacal sube hacia el esófago.",
       "comer_mas": ["Avena", "Plátano maduro", "Melón", "Jengibre", "Hinojo", "Pechuga pollo plancha"],
       "evitar": ["Tomate", "Café", "Chocolate", "Menta", "Ajo crudo", "Fritura", "Picante"],
       "por_que": "Alimentos alcalinos y bajos en grasa calman ácido",
@@ -29,6 +32,7 @@
     },
     {
       "nombre": "Dolor muscular / Post gym",
+      "descripcion": "Dolor y rigidez muscular que aparece 24-48 horas después del ejercicio intenso o poco habitual.",
       "comer_mas": ["Piña", "Guindas ácidas", "Salmón", "Cúrcuma + pimienta", "Huevos"],
       "evitar": ["Alcohol", "Azúcar", "Ultraprocesados"],
       "por_que": "Bromelina de piña y antocianinas bajan inflamación muscular",
@@ -37,6 +41,7 @@
       "red_flag": "Si hay hinchazón, calor local o incapacidad de mover = consulta médica"
     },
     {
+      "descripcion": "Sensación de abdomen distendido y lleno, acompañado de molestias por acumulación de gases intestinales.",
       "nombre": "Hinchazón abdominal / Gases",
       "comer_mas": ["Pepino", "Apio", "Kéfir", "Té menta", "Papaya"],
       "evitar": ["Bebidas gas", "Legumbres sin remojo", "Chicle", "Repollo crudo"],
@@ -46,6 +51,7 @@
       "red_flag": "Si hay dolor intenso, fiebre o vómitos persistentes = urgencia"
     },
     {
+      "descripcion": "Dolor, irritación o picazón en la garganta que empeora al tragar, común en resfriados e infecciones.",
       "nombre": "Dolor de garganta",
       "comer_mas": ["Miel", "Caldo pollo", "Té jengibre tibio", "Helado de agua", "Puré"],
       "evitar": ["Ácido", "Picante", "Galletas secas", "Cítricos fuertes"],
@@ -55,6 +61,7 @@
       "red_flag": "Si hay dificultad para respirar o tragar = urgencia"
     },
     {
+      "descripcion": "Dificultad para evacuar o deposiciones poco frecuentes, con heces duras y difíciles de expulsar.",
       "nombre": "Estreñimiento",
       "comer_mas": ["Kiwi 2 unid", "Ciruelas", "Chía hidratada", "Avena", "Agua 2L"],
       "evitar": ["Queso", "Arroz blanco", "Plátano verde", "Comida seca"],
@@ -64,6 +71,7 @@
       "red_flag": "Si hay sangrado rectal o dolor abdominal intenso = consulta médica"
     },
     {
+      "descripcion": "Sensación de malestar estomacal con ganas de vomitar, acompañado de mareo y pérdida de apetito.",
       "nombre": "Náuseas / Malestar estómago",
       "comer_mas": ["Jengibre", "Galletas soda", "Plátano", "Arroz blanco", "Manzana cocida"],
       "evitar": ["Grasa", "Lácteos", "Olor fuerte", "Café"],
@@ -73,6 +81,7 @@
       "red_flag": "Si hay vómitos persistentes o deshidratación = urgencia"
     },
     {
+      "descripcion": "Infección viral leve con congestión nasal, estornudos, dolor de garganta y malestar general.",
       "nombre": "Resfrío / Congestión",
       "comer_mas": ["Sopa pollo", "Ajo", "Cebolla", "Cítricos", "Kiwi", "Pimentón rojo"],
       "evitar": ["Lácteos si aumentan flema", "Azúcar"],
@@ -82,6 +91,7 @@
       "red_flag": "Si hay fiebre alta >39 o dificultad respiratoria = urgencia"
     },
     {
+      "descripcion": "Dolor, rigidez o inflamación en una o más articulaciones, común con la edad o tras ejercicio intenso.",
       "nombre": "Dolor de articulaciones",
       "comer_mas": ["Pescado azul", "Frutos rojos", "Brócoli", "Aceite oliva", "Nueces"],
       "evitar": ["Azúcar", "Harinas refinadas", "Frituras", "Exceso carne roja"],
@@ -91,6 +101,7 @@
       "red_flag": "Si hay articulación roja, caliente o deformada = consulta médica"
     },
     {
+      "descripcion": "Malestar general después de beber alcohol en exceso, con dolor de cabeza, náuseas y deshidratación.",
       "nombre": "Caña / Resaca",
       "comer_mas": ["Agua", "Bebidas isotónicas", "Palta", "Huevos", "Plátano", "Jengibre"],
       "evitar": ["Más alcohol", "Café solo", "Fritura"],
@@ -100,6 +111,7 @@
       "red_flag": "Si hay vómitos con sangre o confusión = urgencia"
     },
     {
+      "descripcion": "Sensación de nerviosismo, preocupación o malestar estomacal relacionado con estrés y ansiedad.",
       "nombre": "Ansiedad / Nervios en guata",
       "comer_mas": ["Manzanilla", "Plátano", "Avena", "Salmón", "Chocolate 70% pequeño"],
       "evitar": ["Café", "Bebidas energéticas", "Azúcar en peak"],
@@ -109,6 +121,7 @@
       "red_flag": "Si hay ataques de pánico recurrentes o insomnio severo = consulta médica"
     },
     {
+      "descripcion": "Cansancio extremo y falta de energía que no mejora con descanso, dificultando las actividades diarias.",
       "nombre": "Fatiga / Falta energía",
       "comer_mas": ["Huevos", "Lentejas", "Espinaca", "Naranja", "Agua", "Frutos secos"],
       "evitar": ["Azúcar sola", "Comida ultraprocesada"],
@@ -118,6 +131,7 @@
       "red_flag": "Si la fatiga es persistente >2 semanas = consulta médica"
     },
     {
+      "descripcion": "Contracciones musculares repentinas y dolorosas durante la noche, especialmente en piernas y pies.",
       "nombre": "Calambres nocturnos",
       "comer_mas": ["Plátano", "Palta", "Yogurt", "Agua tónica", "Hojas verdes"],
       "evitar": ["Alcohol", "Deshidratación"],
@@ -127,6 +141,7 @@
       "red_flag": "Si los calambres son diarios y muy dolorosos = consulta médica"
     },
     {
+      "descripcion": "Dolor dental leve a moderado que requiere atención odontológica, mientras se espera la consulta.",
       "nombre": "Dolor de muela leve esperando dentista",
       "comer_mas": ["Helado", "Yogurt frío", "Sopa tibia", "Puré", "Té manzanilla frío"],
       "evitar": ["Muy caliente", "Frío extremo", "Dulce pegajoso", "Duro"],

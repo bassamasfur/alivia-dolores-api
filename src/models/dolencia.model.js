@@ -5,6 +5,7 @@
 class Dolencia {
   constructor(data) {
     this.nombre = data.nombre;
+    this.descripcion = data.descripcion;
     this.comer_mas = data.comer_mas || [];
     this.evitar = data.evitar || [];
     this.por_que = data.por_que;
@@ -21,6 +22,10 @@ class Dolencia {
 
     if (!data.nombre || typeof data.nombre !== 'string' || data.nombre.trim() === '') {
       errors.push('El nombre es requerido y debe ser un texto válido');
+    }
+
+    if (!data.descripcion || typeof data.descripcion !== 'string' || data.descripcion.trim() === '') {
+      errors.push('La descripción es requerida y debe ser un texto válido');
     }
 
     if (data.comer_mas && !Array.isArray(data.comer_mas)) {
@@ -59,6 +64,7 @@ class Dolencia {
   toFirestore() {
     return {
       nombre: this.nombre,
+      descripcion: this.descripcion,
       comer_mas: this.comer_mas,
       evitar: this.evitar,
       por_que: this.por_que,
